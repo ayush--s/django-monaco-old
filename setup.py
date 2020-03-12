@@ -8,6 +8,10 @@ setup(
     version='0.1',
     packages=['monaco'],
     description='Monaco editor widgets in the Django Admin',
+    package_data={
+        "": ["LICENSE", "*.md"],
+        "hello": ["static"],
+    },
     include_package_data=True,
     long_description=README,
     long_description_content_type="text/markdown",
